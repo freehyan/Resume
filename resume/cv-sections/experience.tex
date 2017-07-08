@@ -11,43 +11,35 @@
 \begin{hyancventries}
 
 %------------------------------------------------
-
-\hyanentrytitlestyle{基于极线采样(Epipolar Sampling)的户外光大气散射}\hspace{2cm}
-\entrydatestyle{2015.09-2015.12}\hspace{3.25cm}
-\entrylocationstyle{团队/组长}
-\newline
-\entrypositionstyle{{\color{red}项目描述}：大气散射是日常生活中基本现象，由于空气中微粒的影响，光线会产生不同的亮度和频谱上的变化，直观的效果是蔚蓝的天空和黄昏的日落。而在虚拟世界加入大气散射效果会使户外场景更加真实。此论文通过建立大气物理模型，预计算散射积分方程，使用极线采样和一维最小最大二叉树(1D Minimum/Maximum Binary Trees)方法加速，实时模拟出基于物理的高性能物理大气散射效果。}
-
-\entrypositionstyle{{\color{red}项目职责}：主要负责框架的设计与实现，大气中参与介质的密度估计，散射积分离散化表达，以及极线采样模块。}
-%------------------------------------------------
-
-\hyanentrytitlestyle{HIVE游戏渲染引擎}\hspace{7.3cm}
+\hyanentrytitlestyle{HIVE 渲染引擎}\hspace{5.7cm}
 \entrydatestyle{2016.01-2016.06}\hspace{3.25cm}
 \entrylocationstyle{团队/组员}
 \newline
-\entrypositionstyle{{\color{red}项目描述}：游戏渲染引擎是指已经开发好并用于快速开发的游戏组件，目的是让图形编程人员更快速地实现虚拟游戏或仿真特效。HIVE针对OpenGL，DirectX，Vulkan不同的图形API渲染语言，设计了基于抽象层、实现层、应用层并具有良好扩展性的三层架构引擎。}
+\entrypositionstyle{{\color{red}项目描述}：HIVE是针对图形程序员的开发框架, 设计了API无关的插件式结构。 延伸出抽象逻辑层，图形层，应用层三层引擎架构，支持多种不同的API(OpenGL, DirectX, Vulkan)绘制语言，具有良好的扩展性。}
 
-\entrypositionstyle{{\color{red}项目职责}：参与渲染引擎框架的设计与实现，负责文件系统模块（日志和配置文件），游戏场景图模块（模型变换、场景组织），绘制管线模块（Pass的执行、Shader的加载和验证、Uniform的更新），以及资源管理器模块。}
+\entrypositionstyle{{\color{red}项目职责}：参与渲染引擎框架的设计与实现，负责文件系统模块（日志和配置文件），游戏场景图模块（模型变换、场景组织），绘制管线
+	模块（Pass的执行、 Shader的加载和验证、 Uniform的更新），以及资源管理器模块。}
+
 %------------------------------------------------
-
-\hyanentrytitlestyle{基于光源链表(Light Linked List)的实时光照}\hspace{3.3cm}
-\entrydatestyle{2016.07-2016.09}\hspace{3.25cm}
-\entrylocationstyle{团队/组长}
+\hyanentrytitlestyle{图形算法研究}\hspace{5.7cm}
+\entrydatestyle{2016.07---*******}\hspace{3.25cm}
+\entrylocationstyle{个人/团队}
 \newline
-\entrypositionstyle{{\color{red}项目描述}：延迟渲染是游戏中最受欢迎的实时渲染技术，它可以处理高几何复杂度场景和动态多光源问题，但是却不能处理透明物体和烟雾效果。LLL算法针对每个像素建立光源链表可以有效解决此问题，而且算法效率优于传统的延迟渲染技术。}
+\entrypositionstyle{{\color{red}项目描述}：研究和实现了图形学实时渲染相关领域的算法，其中包括延迟着色、 反走样、 顺序无关透明、 阴影、 流体渲染、 屏幕空间光泽反射，大气散射，体积雾等，期间也搭建了自己的渲染引擎Cooler。}
 
-\entrypositionstyle{{\color{red}项目职责}：查阅相关论文和实现算法效果，加入OIT(Order Independent Transparency)算法优化最终效果，设计实验测试Deferred Shading和LLL在不同几何场景和光源数量的效率对比。}
+\entrypositionstyle{{\color{red}项目地址}：https://github.com/freehyan/Graphics 和 https://github.com/freehyan/Cooler}
 
 %------------------------------------------------
-\hyanentrytitlestyle{基于机器学习的并行绘制系统}\hspace{5.7cm}
+\hyanentrytitlestyle{基于多种负载均衡方式的并行绘制系统}\hspace{2.1cm}
 \entrydatestyle{2016.10-2016.12}\hspace{3.25cm}
 \entrylocationstyle{团队/组员}
 \newline
-\entrypositionstyle{{\color{red}项目描述}：针对基于sort-first结构的并行绘制系统中体系结构，任务划分，时序控制逻辑，和负载均衡等关键性问题提供了完整的解决方案。并行绘制系统通过机器学习负责负载均衡和InfiniBand负责网络传输模块，实现了复杂场景绘制的加速。}
+\entrypositionstyle{{\color{red}项目描述}： 对基于sort-first结构的并行绘制系统中体系结构，任务划分，时序控制逻辑，和负载均衡等关键性问题提供了完整的解决方案。 并行绘制系统使用时间帧相关性，机器学习等不同的负载均衡算法，Infliband的网络传输和渲染引擎的底层绘制，加速了复杂场景绘制.}
 
-\entrypositionstyle{{\color{red}项目职责}：参与系统的设计与实现，主要负责绘制模块，并协助其他小组完成功能模块，代码复查和性能优化。}
+\entrypositionstyle{{\color{red}项目职责}：参与并行绘制框架的设计与实现，主要负责控制节点和绘制节点的流程，并协助其他小组完成相应的功能模块，以及代码把控和性能优化。}
 
 %------------------------------------------------
+
 
 
 \end{hyancventries}
